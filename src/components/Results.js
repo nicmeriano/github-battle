@@ -1,18 +1,10 @@
-import React, {
-  Component,
-  Fragment,
-  useState,
-  useEffect,
-  useReducer,
-  useRef
-} from "react";
+import React, { Fragment, useEffect, useReducer } from "react";
 import { battle } from "../utils/api";
 import {
   FaCompass,
   FaBriefcase,
   FaUsers,
   FaUserFriends,
-  FaCode,
   FaUser
 } from "react-icons/fa";
 import Card from "./Card";

@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import ThemeContext from "../contexts/theme";
+import React from "react";
 import PropTypes from "prop-types";
 
 export default function Card({
@@ -10,14 +9,13 @@ export default function Card({
   name,
   children
 }) {
-  const theme = useContext(ThemeContext);
   return (
-    <div className={`card bg-${theme}`}>
-      <h4 className="header-lg center-text">{header}</h4>
+    <div className={`card`}>
       <img src={avatar} alt={`Avatar for ${name}`} className="avatar" />
       {subheader && <h4 className="center-text">{subheader}</h4>}
       <h5 className="center-text">
         <a href={href} className="link">
+          <span className="rank">{header}</span>
           {name}
         </a>
       </h5>

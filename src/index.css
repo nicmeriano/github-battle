@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +14,7 @@ body {
 body,
 input,
 textarea {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul {
@@ -98,21 +100,31 @@ button {
   text-align: center;
 }
 
+.rank {
+  /* font-weight: 300; */
+  margin-right: 5px;
+}
+
 .link {
   color: rgb(187, 46, 31);
   text-decoration: none;
   font-weight: bold;
+  font-size: 1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .card-list {
   margin: 20px 0;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .card-list li {
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin: 5px;
 }
 
 .card-list svg {
@@ -133,6 +145,7 @@ button {
   margin: 10px 0;
   width: 250px;
   padding: 20px;
+  box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.105);
 }
 
 .card a {

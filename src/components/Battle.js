@@ -1,12 +1,11 @@
 import React, { useState, Fragment, useContext } from "react";
-import Results from "./Results";
 import {
   FaUserFriends,
   FaFighterJet,
   FaTrophy,
   FaTimesCircle
 } from "react-icons/fa";
-import ThemeContext, { ThemeConsumer } from "../contexts/theme";
+import ThemeContext from "../contexts/theme";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 

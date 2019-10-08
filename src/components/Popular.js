@@ -51,7 +51,6 @@ function ReposGrid({ repos }) {
       {repos.map((repo, index) => {
         const {
           id,
-          name,
           owner,
           html_url,
           stargazers_count,
