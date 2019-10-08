@@ -1,6 +1,6 @@
 <div align="center">
 <p>
-<img src="./public/favicon.ico" width="150"/>
+<img src="./public/favicon.png" width="150"/>
 </p>
 
 🔥 __Github Battle__ is a React App that pulls data  from the [Github API](https://developer.github.com/v3/) to achieve multiple actions like Github Users Battle and Most Popular Repos.
